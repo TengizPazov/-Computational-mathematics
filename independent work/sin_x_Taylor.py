@@ -13,7 +13,6 @@ def find_n_for_accuracy(x: float, epsilon: float) -> int:
     n = 0
     # Вычисляем первый член ряда (n=0): x^(1) / 1! = x
     current_term = abs(x)
-    
     # Пока текущий член больше эпсилон, продолжаем искать
     while current_term > epsilon:
         n += 1
