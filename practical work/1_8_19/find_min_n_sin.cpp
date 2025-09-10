@@ -13,12 +13,6 @@ uint32_t find_min_n_sin(double t_max, double delta = 1e-3, double safety_factor 
             return n;
         }
         n++;
-        
-        // Защита от бесконечного цикла
-        if (n > 1000) {
-            std::cerr << "Warning: Maximum iterations reached for sin(t)" << std::endl;
-            return n;
-        }
     }
 }
 
@@ -27,19 +21,12 @@ uint32_t find_min_n_exp(double t_max, double delta = 1e-3, double safety_factor 
     uint32_t n = 0;
     double M = std::exp(t_max); // Максимальное значение производной
     double target = delta * safety_factor;
-    
     while (true) {
         double term = M * std::pow(t_max, n + 1) / std::tgamma(n + 2);
         if (term <= target) {
             return n;
         }
         n++;
-        
-        // Защита от бесконечного цикла
-        if (n > 1000) {
-            std::cerr << "Warning: Maximum iterations reached for exp(t)" << std::endl;
-            return n;
-        }
     }
 }
 
