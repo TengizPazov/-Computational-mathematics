@@ -15,5 +15,5 @@ plt.scatter(list_t_max, error_list, color='black', marker='o')
 plt.xlabel('t_max') 
 plt.ylabel('number') #номер начиная с которого можно отбрасывать 
 plt.title('error(t_max)')
-plt.savefig('number(t_max)')
+plt.savefig(r'D:\5sem\computational_mathematics\practical work\1_8_19\number(t_max).png')
 plt.show()
