@@ -15,7 +15,6 @@ uint32_t find_min_n_sin(double t_max, double delta = 1e-3, double safety_factor 
         n++;
     }
 }
-
 // Для e^t: M = e^t (наихудший случай)
 uint32_t find_min_n_exp(double t_max, double delta = 1e-3, double safety_factor = 0.1) {
     uint32_t n = 0;
