@@ -3,8 +3,6 @@
 
 std::vector<double> dividedDiff(const std::vector<double>& x, const std::vector<double>& y) {
     int n = x.size();
-    
-    // Создаем матрицу n x n
     std::vector<std::vector<double>> coef(n, std::vector<double>(n, 0.0));
     for (int i = 0; i < n; i++) {
         coef[i][0] = y[i];
