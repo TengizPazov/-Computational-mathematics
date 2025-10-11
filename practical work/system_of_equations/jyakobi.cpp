@@ -1,6 +1,22 @@
 #include <vector>
 #include <cmath>
-
+//функция нахождения нормы матрицы
+double norm1(const std::vector<std::vector<double>>& A) {
+    double maximum = 0;
+    size_t n = A.size();
+    size_t m = A[0].size();
+    
+    for (size_t line = 0; line < n; line++) {
+        double sum = 0;
+        for (size_t j = 0; j < m; j++) {
+            sum += std::abs(A[line][j]);
+        }
+        if (sum > maximum) {
+            maximum = sum;
+        }
+    }
+    return maximum;
+}
 // Функция нахождения вектора F в методе Ньютона
 std::vector<double> find_F(const std::vector<double>& w0) {
     double F1 = w0[0] * w0[0] + w0[1] * w0[1] - 1.0;
