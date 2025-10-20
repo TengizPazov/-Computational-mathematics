@@ -74,6 +74,7 @@ std::vector<double> thomas_algorithm(const std::vector<double>& h, const std::ve
         }
     }
     
+    
     c[0] = 0.0;
     c[N] = 0.0;
     
