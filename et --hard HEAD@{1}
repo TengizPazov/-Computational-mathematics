@@ -1,0 +1,47 @@
+[33md0c8fc6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: commit: update
+[33mb365bc5[m HEAD@{1}: commit: update
+[33me70e85f[m HEAD@{2}: commit: update
+[33m43c105a[m HEAD@{3}: commit: update
+[33md225d85[m HEAD@{4}: commit: update
+[33m5e25954[m HEAD@{5}: commit: update
+[33mee11f6d[m HEAD@{6}: commit: update
+[33m9940c8a[m HEAD@{7}: commit: update
+[33m0499f44[m HEAD@{8}: commit: update
+[33me1c5eb4[m HEAD@{9}: commit: update
+[33m802d329[m HEAD@{10}: commit: update
+[33m64d09fa[m HEAD@{11}: commit: norm1
+[33m9a14476[m HEAD@{12}: commit: update
+[33m8fde473[m HEAD@{13}: commit: update
+[33m1578715[m HEAD@{14}: commit: added integration
+[33ma8c828e[m HEAD@{15}: commit: update
+[33m7796c45[m HEAD@{16}: commit: added second system solve
+[33mab1b1d5[m HEAD@{17}: commit: added system_of_equations
+[33m18aa9db[m HEAD@{18}: commit: update
+[33mf02ab2d[m HEAD@{19}: commit: update
+[33mbc77dd5[m HEAD@{20}: commit: added thomas alg and problemm 4_12_8
+[33mfd604a3[m HEAD@{21}: commit: update
+[33m40cec53[m HEAD@{22}: commit: update
+[33mec8574b[m HEAD@{23}: commit: update
+[33mc6037c8[m HEAD@{24}: commit: update
+[33m0d6ea9b[m HEAD@{25}: commit: added cube interpolation
+[33m1998f4a[m HEAD@{26}: commit: added files
+[33mffad01c[m HEAD@{27}: commit: added 6.9.32
+[33mee6dfc9[m HEAD@{28}: commit: added 6_9_32
+[33m3114fca[m HEAD@{29}: commit: new code
+[33m2217163[m HEAD@{30}: commit: added the graph
+[33mbbc76f4[m HEAD@{31}: commit: delted
+[33mb0c0122[m HEAD@{32}: commit: added find_min_n_sin.cpp
+[33mb40e11d[m HEAD@{33}: commit: added
+[33m1942858[m HEAD@{34}: commit: upgrade
+[33m20e1615[m HEAD@{35}: commit: added find_min_n_sin.cpp
+[33m783003b[m HEAD@{36}: commit: result
+[33m781d373[m HEAD@{37}: commit: deleted 1_8_19_sin.py
+[33m1f66f9f[m HEAD@{38}: commit: added solution of 1_8_19 problem
+[33mebdebd8[m HEAD@{39}: commit: deleted 1_8_19_exponent
+[33md9a0139[m HEAD@{40}: commit: added 1_8_19_sin
+[33m7633df4[m HEAD@{41}: Branch: renamed refs/heads/main to refs/heads/main
+[33m7633df4[m HEAD@{43}: commit: 1_8_19 added"
+[33m8e8e114[m HEAD@{44}: Branch: renamed refs/heads/main to refs/heads/main
+[33m8e8e114[m HEAD@{46}: commit: added sin_x_Taylor
+[33maec4e3e[m HEAD@{47}: Branch: renamed refs/heads/master to refs/heads/main
+[33maec4e3e[m HEAD@{49}: commit (initial): added independed work files
